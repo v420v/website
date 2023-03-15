@@ -17,16 +17,21 @@ h2 {
     padding: 25px 0px;
 }
 
-li {
-    list-style: none;
-}
-
-.project {
+ul {
     font-size: 20px;
+    padding-left: 20px;
 }
 
 .link {
     font-size: 20px;
+}
+
+@media screen and (max-width: 1000px) {
+    /* pc */
+    .container {
+        padding: 30px 250px;
+        margin: 0 auto; 
+    }
 }
 
 @media screen and (max-width: 850px) {
@@ -36,6 +41,7 @@ li {
         margin: 0 auto; 
     }
 }
+
 @media screen and (max-width: 650px) {
     /* tablet */
     .container {
