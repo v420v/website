@@ -1,0 +1,52 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #0366d6;
+}
+
+.container {
+    padding: 30px 300px;
+    margin: 0 auto; 
+}
+
+h2 {
+    padding: 25px 0px;
+}
+
+li {
+    list-style: none;
+}
+
+.project {
+    font-size: 20px;
+}
+
+.link {
+    font-size: 20px;
+}
+
+@media screen and (max-width: 850px) {
+    /* tablet */
+    .container {
+        padding: 30px 200px;
+        margin: 0 auto; 
+    }
+}
+@media screen and (max-width: 650px) {
+    /* tablet */
+    .container {
+        padding: 30px 100px;
+        margin: 0 auto; 
+    }
+}
+@media screen and (max-width: 500px) {
+    /* tablet */
+    .container {
+        padding: 30px 20px;
+        margin: 0 auto; 
+    }
+}
