@@ -4,6 +4,10 @@
     padding: 0;
 }
 
+body {
+    height: 100vh;
+}
+
 a {
     color: #0366d6;
 }
@@ -22,8 +26,18 @@ ul {
     padding-left: 20px;
 }
 
+li {
+    line-height: 30px;
+}
+
 .link {
     font-size: 20px;
+}
+
+.footer {
+    font-size: 25px;
+    padding: 30px 10px;
+    text-align: center;
 }
 
 @media screen and (max-width: 1000px) {
