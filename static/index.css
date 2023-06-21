@@ -12,7 +12,6 @@ body {
 
 a {
     color: #00008b;
-    text-decoration: none; 
 }
 
 .section {
@@ -25,7 +24,7 @@ a {
 }
 
 h1, h2, h3, h4, h5, h6, strong, b {
-    color: #454545;
+    color: #2c2c2c;
 }
 
 h1 {
@@ -43,11 +42,6 @@ h2 {
     font-weight: 500;
     font-size: 25px;
     padding: 10px 0px;
-}
-
-.fa-brands {
-    font-size: 30px;
-    margin-right: 10px;
 }
 
 .container {
@@ -79,15 +73,16 @@ h2 {
         margin: 0 auto; 
     }
     .section {
-        font-size: 15px;
+        font-size: 18px;
+        padding: 5px 0px;
     }
 }
 @media screen and (max-width: 500px) {
     h1 {
-	font-size: 30px;
+	    font-size: 30px;
     }
     h2 {
-	font-size: 25px;
+	    font-size: 25px;
     }
     .container {
         padding: 30px 10px;
