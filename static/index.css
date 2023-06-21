@@ -2,24 +2,26 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif;
+    background-color: #55ffff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 body {
     height: 100vh;
 }
 
-li {
-    font-size: 20px;
-}
-
 a {
-    color: #0366d6;
+    color: #00008b;
     text-decoration: none; 
 }
 
 .section {
+    font-size: 20px;
     padding: 10px 0px;
+}
+
+.inu {
+    border: 3px solid #ffd700;
 }
 
 h1, h2, h3, h4, h5, h6, strong, b {
@@ -27,22 +29,20 @@ h1, h2, h3, h4, h5, h6, strong, b {
 }
 
 h1 {
-    font-size: 40px;
+    font-size: 35px;
     font-weight: 500;
-    padding: 10px 0px;
-}
-ul,ol{
-    list-style: none;
-    padding-inline-start: 0;
- }
-h2 {
-    font-weight: 500;
-    font-size: 30px;
     padding: 10px 0px;
 }
 
-.link {
-    color: #454545;
+ul,ol{
+    list-style: none;
+    padding-inline-start: 0;
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 25px;
+    padding: 10px 0px;
 }
 
 .fa-brands {
@@ -56,10 +56,6 @@ h2 {
     margin: 0 auto; 
 }
 
-/*ul {
-    padding-left: 20px;
-}*/
-
 @media screen and (max-width: 1000px) {
     /* pc */
     .container {
@@ -71,7 +67,7 @@ h2 {
 @media screen and (max-width: 850px) {
     /* tablet */
     .container {
-        padding: 30px 200px;
+        padding: 30px 180px;
         margin: 0 auto; 
     }
 }
@@ -79,8 +75,11 @@ h2 {
 @media screen and (max-width: 650px) {
     /* tablet */
     .container {
-        padding: 30px 100px;
+        padding: 30px 90px;
         margin: 0 auto; 
+    }
+    .section {
+        font-size: 15px;
     }
 }
 @media screen and (max-width: 500px) {
@@ -91,7 +90,7 @@ h2 {
 	font-size: 25px;
     }
     .container {
-        padding: 30px 20px;
+        padding: 30px 10px;
         margin: 0 auto; 
     }
 }
