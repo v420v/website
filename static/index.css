@@ -10,6 +10,7 @@ body {
 }
 
 a {
+    font-weight: bold;
     color: #00008b;
 }
 
@@ -35,6 +36,10 @@ h1 {
 ul,ol{
     list-style: none;
     padding-inline-start: 0;
+}
+
+li {
+    line-height: 40px;
 }
 
 h2 {
